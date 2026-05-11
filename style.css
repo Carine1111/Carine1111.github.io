@@ -23,7 +23,17 @@ a:visited {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-areas:
-	"The Serengeti Tarangire";
+	"Serengeti Tarangire";
+	justify-items: center;
+	align-items: center;
+	padding: 100px;
+}
+
+.europeContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+	"Amsterdam Italy";
 	justify-items: center;
 	align-items: center;
 	padding: 100px;
@@ -31,4 +41,8 @@ a:visited {
 
 #asiaPage{
 	background-color: #EBF6ff;
+}
+
+#africaPage{
+	background-color: #F2FFF5;
 }
