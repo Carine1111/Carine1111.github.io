@@ -16,7 +16,7 @@ a:visited {
 	"Japan Indonesia";
 	justify-items: center;
 	align-items: center;
-	padding: 100px;
+	padding: 10px;
 }
 
 .africaContainer {
@@ -26,7 +26,7 @@ a:visited {
 	"Serengeti Tarangire";
 	justify-items: center;
 	align-items: center;
-	padding: 100px;
+	padding: 10px;
 }
 
 .europeContainer {
@@ -36,7 +36,7 @@ a:visited {
 	"Amsterdam Italy";
 	justify-items: center;
 	align-items: center;
-	padding: 100px;
+	padding: 10px;
 }
 
 #asiaPage{
@@ -44,5 +44,9 @@ a:visited {
 }
 
 #africaPage{
-	background-color: #F2FFF5;
+	background-color: #FFFFED;
+}
+
+#europePage{
+	background-color: #F5FFF6;
 }
