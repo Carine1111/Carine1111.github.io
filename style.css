@@ -57,13 +57,14 @@ a:visited {
   padding: 0;
   overflow: hidden;
   background-color: #050133;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }
 
 .navBar a {
   float: left;
+  border-right: 1px solid #FFFFFF;
 }
 
 .navBar a {
@@ -72,6 +73,7 @@ a:visited {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  justify-content: center;
 }
 
 .navBar a:hover:not(.active) {
