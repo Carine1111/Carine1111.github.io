@@ -50,3 +50,34 @@ a:visited {
 #europePage{
 	background-color: #F5FFF6;
 }
+
+.navBar {
+  list-style-type: none;
+  margin: 2;
+  padding: 0;
+  overflow: hidden;
+  background-color: #050133;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navBar a {
+  float: left;
+}
+
+.navBar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBar a:hover:not(.active) {
+  background-color: #3E6FB0;
+}
+
+.navBar a.active {
+  background-color: #B1CBF0;
+}
